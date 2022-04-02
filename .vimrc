@@ -1,3 +1,8 @@
+"Nimi .vimrc file
+
+"this is a comment
+"
+
 set number
 set relativenumber
 
