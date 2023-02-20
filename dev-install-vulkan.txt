@@ -1,0 +1,56 @@
+install for development:
+- Ubuntu OS
+- Git
+	- SSH Keys: "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux"
+	- $cd .ssh
+	- $ssh-keygen -o -t rsa -C "user.name@gmail.com"
+	- $Return and Return
+	  - cat id_rsa.pub and copy the key
+	  - Paste the key in a "New SSH Key" at "https://github.com/settings/keys"
+	- $cd .. or $cd ~
+	- $clone "git@github.com:username/vimconfig.git" ./vim
+	- $some text and a warning, just answer yes ... (yes/no/fingerprint): yes
+	  - Done
+- VIM
+	- Clone my vim
+- VSCODE
+	- Cmake Tools for VS Code
+	- $apt-cache policy cmake 
+	- $sudo apt install cmake
+	- $gcc -v
+	- $sudo apt update
+	- $sudo apt install build-essential gdb
+
+- cmake
+	- $sudo apt install cmake
+
+- gcc
+	- $sudo apt install build-essential gdb 
+
+- Vulkan:
+	- $sudo apt install vulkan-tools
+	- $vulkaninfo
+	- $vkcube
+	- $sudo apt install libvulkan-dev
+	- $sudo apt install vulkan-validationlayers-dev spirv-tools
+
+- GLFW:
+	- $sudo apt install libglfw3-dev
+- GLM
+	- $sudo apt install libglm-dev
+
+- glslangValidator:
+	- sudo apt install glslang-tools
+
+- Boost C++:
+	- $sudo apt-cache policy libboost-all-dev
+	- $sudo apt install libboost-all-dev
+
+
+
+Build HMD and run.
+
+
+
+
+

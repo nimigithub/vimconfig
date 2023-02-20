@@ -9,3 +9,10 @@ set nowrap
 
 inoremap jj <Esc>
 
+set noerrorbells
+:if exists('belloff')
+:	set belloff=all
+:endif
+
+set smartindent
+
